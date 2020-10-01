@@ -8,6 +8,9 @@ public class SpamTaskWithEmailAndNumberOfSpamerSender {
     private String email;
     private int numberOfSpamerSender;
 
+    public SpamTaskWithEmailAndNumberOfSpamerSender() {
+    }
+
     public SpamTaskWithEmailAndNumberOfSpamerSender(SpamTask spamTask, String email, int numberOfSpamerSender) {
         this.spamTask = spamTask;
         this.email = email;

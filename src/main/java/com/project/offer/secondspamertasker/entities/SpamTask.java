@@ -32,4 +32,12 @@ public class SpamTask {
     public void setSpamTaskText(String spamTaskText) {
         this.spamTaskText = spamTaskText;
     }
+
+    @Override
+    public String toString() {
+        return "SpamTask{" +
+                "spamTaskTheme='" + spamTaskTheme + '\'' +
+                ", spamTaskText='" + spamTaskText + '\'' +
+                '}';
+    }
 }

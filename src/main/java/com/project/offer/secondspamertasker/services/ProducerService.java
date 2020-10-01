@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProducerService {
 
-    @Value("${}")
+    @Value("${spring.kafka.senderTopic}")
     private String topic;
 
     @Autowired
