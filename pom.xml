@@ -10,12 +10,12 @@
     </parent>
     <groupId>com.project.offer</groupId>
     <artifactId>secondspamertasker</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>OFFsetSecondSpamerTasker</name>
+    <version>1.0</version>
+    <name>offer-SecondSpamerTasker</name>
     <description>Second spamer tasker for offset</description>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
